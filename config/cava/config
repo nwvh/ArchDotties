@@ -1,0 +1,36 @@
+[general]
+
+# smoothing mode, can be normal, scientific or waves.
+# ; mode = normal
+#
+# # Framerate Default: 60. Accepts only non-negative values.
+framerate = 60
+#
+# # Sensitivity in  %. If you think the bars are to low/response is to little, try
+# # increasing this value 200 means double height. Accepts only non-negative values.
+# # sensitivity = 100
+#
+# # Autosens will attempt to decrease sensitivity if cava peaks. 1 = on, 0 = off
+# # overshoot allows bars to overshoot (in % of terminal height) without initiating autosens
+# ; autosens = 1
+# ; overshoot = 0
+#
+# # The number of bars (0-200). 0 (default) sets it to auto (fill up console).
+# # width of bars and space between bars in number of characters. Default width 3 and space 1.
+;bars = 10
+bar_width = 6
+bar_spacing = 1.5
+
+
+[color]
+
+gradient = 1
+
+gradient_color_1 = '#B5E8E0'
+gradient_color_2 = '#89DCEB'
+gradient_color_3 = '#96CDFB'
+gradient_color_4 = '#DDB6F2'
+gradient_color_5 = '#F5C2E7'
+gradient_color_6 = '#E8A2AF'
+gradient_color_7 = '#F2CDCD'
+gradient_color_8 = '#F5E0DC'
